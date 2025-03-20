@@ -1,0 +1,45 @@
+#hero {
+  text-align: center;
+  background: url(../assets/images/Background_Intro.png) no-repeat center/cover;
+
+  & .hero-container {
+    min-height: 750px;
+    padding: 120px 16px 0;
+    max-width: 1024px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  & .profile-picture {
+    width: 112px;
+    margin-bottom: 56px;
+  }
+
+  h1 {
+    margin-block: 8px 20px;
+  }
+
+  p {
+    max-width: 680px;
+    color: var(--gray-400);
+    margin-bottom: 80px;
+  }
+
+  & .tags {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 94px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & .tag {
+      display: flex;
+      gap: 8px;
+      padding: 8px 16px;
+      background-color: var(--gray-300);
+      border-radius: 999px;
+    }
+  }
+}

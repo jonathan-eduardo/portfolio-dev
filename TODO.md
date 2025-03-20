@@ -1,0 +1,4 @@
+- Criar variaveis com estilos
+- Criar estilos globais
+- Criar estrutura HTML
+- Criar funcionalidade mobile
